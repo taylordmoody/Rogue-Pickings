@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: #77a466;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.top-section, bottom-section {
+  margin: 0 auto;
+  clear: both;
+}
+
+/***** TOP SECTION *****/
+
+header {
+	  height: 110px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'Montserrat', serif;
+    color: #000000;
+    font-size: 30px;
+    line-height: 23px;
+    text-transform: uppercase;
+    float: left;
+    padding: 38px 0;
+    margin: 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #77a466;
+    line-height: 23px;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/***** TOP SECTION *****/
+
+.main-image {
+	  height: auto;
+}
+
+.main-image img {
+	  border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+
+.main-title h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+    color: #77a466;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.main-title p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    padding: 0;
+}
+
+/***** BOTTOM SECTION *****/
+
+.section-one,
+.section-two,
+.section-three {
+    width: 399px;
+    float: left;
+    border-top: 1px solid #eee;
+}
+
+h4 {
+	  font-size: 12px;
+    color: black;
+	  text-transform: uppercase;
+	  font-weight: 700;
+}
+
+p {
+    padding: 0 30px;
+}
+
+.section-one h4 {
+	  padding: 10px 0;
+}
+
+.menu {
+	  list-style: none;
+	  padding: 0;
+}
+
+.menu li {
+	  padding: 10px 0;
+	  color:#77a466;
+}
+
+.section-two h4,
+.section-three h4 {
+	  padding: 10px 30px;
+}
+
+.section-two {
+	  border-left: 1px solid #eee;
+	  border-right: 1px solid #eee;
+}
+
+.reviews {
+    color: #333;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.address {
+	  font-size: 16px;
+	  line-height: 24px;
+    color: #333;
+}
+
+/***** FOOTER *****/
+
+footer {
+    clear: both;
+    border-top: 3px solid #eee;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer span {
+  font-family: 'Wisdom Script', cursive;
+  text-transform: lowercase;
+  color: #77a466;
+  font-size: 14px;
+}
